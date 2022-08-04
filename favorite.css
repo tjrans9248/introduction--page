@@ -1,0 +1,28 @@
+.background{
+    background-color: rgb(60, 60, 0);
+    height: 450px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-favorite {
+    box-shadow: 0 4px 8px 0 olive;
+    transition: 0.3s;
+  }
+  
+.card-favorite:hover {
+    box-shadow: 0 8px 16px 0 olive;
+  }
+   
+.container-favorite {
+    padding: 2px 16px;
+  }
+
+h3{
+  font-family: sans-serif;
+  color:wheat;
+  text-align: center;
+}

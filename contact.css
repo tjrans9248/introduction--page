@@ -1,0 +1,28 @@
+.contact-background{
+    border: 1px solid red;
+    background-color: wheat;
+    height: 650px;
+}
+
+.text{
+    color: olive;
+}
+
+.icon{
+    font-size: 100px;
+    color: olive;
+    display: flex;
+    justify-content: center;
+}
+
+.icon:hover{
+    color: rgb(244, 171, 12);
+}
+
+h4{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: olive;
+  text-align: center;
+}
+  

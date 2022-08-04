@@ -1,0 +1,120 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: 1500px 750px;
+  background-image: url('https://images.unsplash.com/photo-1657457821745-09650cbce80d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80')
+  
+}
+
+ul li{
+  list-style-type: none;
+  float: left;
+  margin-left: 20px;
+}
+a{
+  color: wheat;
+  font-size: 26px;
+  text-decoration: none;
+  padding-left: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+  color:  rgb(244, 171, 12);
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+}
+
+.nav-container-left{
+  width: 700px;
+  margin-top: 20px;
+}
+
+.nav-container-right{
+  display:flex;
+  justify-content: right;
+  font-weight: bold;
+  padding-right: 180px;
+  padding-top: 15px;
+  background-color: olive;
+}
+
+
+.main-container-up{
+  display: flex;
+  align-items: center;
+  color: wheat;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  width: 410px;
+  height: -30vh;
+  margin-left: 50px;
+  
+}
+.main-container{
+  margin-top: 250px;
+  text-align: center;
+  
+}
+
+.typing-memo-container {
+  display: grid;
+  place-items: flex-start;
+}
+
+
+.typing-memo {
+  width: 21ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: wheat;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.introduce{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: wheat;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-bottom: 300px;
+}
+
+.footer{
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: olive;
+  height: 70px;
+}
+
+#clock{
+  color: wheat;
+  font-size: 35px;
+  text-decoration: none;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif
+
+}
